@@ -1,0 +1,22 @@
+;;; WHERE TO STORE MAIL =======================================================
+
+;;(setq vm-folder-directory "~/mail")
+(setq vm-primary-inbox "imap-ssl:imap.gmail.com:993:Inbox:login:palakmathur:*")
+;;(setq mail-archive-file-name "~/mail/sent")
+(setq vm-crash-box "~/mail/inbox.crash.mbox")
+
+
+;; Reading behavior
+;; (setq vm-auto-get-new-mail 300)	; Read spool(s) on M-x vm
+;; (setq vm-startup-with-summary nil)	; Don't startup with summary
+;; (setq vm-preview-lines nil)	; No preview, just display whole msg
+;; (setq vm-jump-to-unread-messages t)	; Jump to unread messages before new
+;; (setq vm-jump-to-new-messages nil)
+;; (setq-default vm-summary-show-threads nil) ; Don't thread msgs by default
+;; (setq vm-skip-deleted-messages t)	; Skip over ("n", "p") deleted msgs
+;; (setq vm-skip-read-messages nil)	; Do NOT skip over merely-read msgs
+;; (setq vm-auto-next-message nil)	; Do not SPACE to next msg, only "n"
+;; (setq vm-move-after-deleting t)	;Goto next message on delete
+;; (setq vm-mail-check-interval nil)	; I'll manually check when I want to
+
+
