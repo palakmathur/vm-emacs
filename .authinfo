@@ -1,0 +1,1 @@
+machine smtp.gmail.com login <email_username> password <email_password>
